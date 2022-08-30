@@ -12,14 +12,17 @@
 
 
     <header>
-        <h1>The Blog of Tecg</h1>
+        <h1>The Blog of Tech</h1>
         <nav class="">
+            {{#if loggedIn}}
             <a href="/">homepage</a>
             <a href="/dashboard" class="">dashboard</a>
             <a href="/dashboard/create/" class="">create post</a>
             <button id="logout" class="">logout</button>
+            {{else}}
             <a href="/" class="">homepage</a>
             <a href="/login" class="">login</a>
+            {{/if}}
         </nav>
     </header>
 
