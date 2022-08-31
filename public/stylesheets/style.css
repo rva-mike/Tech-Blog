@@ -16,3 +16,7 @@ main {
 .create {
     margin-right: 15px;
 }
+
+.card-header {
+    height: 60px;
+}
