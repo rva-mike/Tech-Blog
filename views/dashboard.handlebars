@@ -1,15 +1,18 @@
-<div class="">
-    <a href="/dashboard/create/"><button id="create-post" class="button">create post</button></a>
+<div class="ms-3">
 
-    <h2 class="title">dashboard: your posts</h2>
-    <hr>
-    {{#if posts.length}}
-</div>
 
-{{#each posts as |post|}}
-{{> post-info post}}
+    <div class="">
 
-<a href="/dashboard/edit/{{post.id}}"><button class="button">edit post</button></a>
+        <h2 class="title mt-3">Dashboard: Your posts</h2>
+        <a href="/dashboard/create/"><button id="create-post" class="btn btn-success">create post</button></a>
+        <hr>
+        {{#if posts.length}}
+    </div>
+
+    {{#each posts as |post|}}
+    {{> post-info post}}
+
+    <a href="/dashboard/edit/{{post.id}}"><button class="btn btn-warning">edit post</button></a>
 </div>
 {{/each}}
 
@@ -17,3 +20,5 @@
 <h6 class="">you do not currently have any posts</h6>
 
 {{/if}}
+
+</div>

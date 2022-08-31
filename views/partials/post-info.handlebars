@@ -1,26 +1,26 @@
-<div class="">
+<div class="ms-3">
     <header class="">
 
-        <div class="column">
-            <p class=""></p>
-            <a href="/post/{{id}}" class="">{{title}} </a></p>
-        </div>
 
         <div class="">
-            <span class=""> </span>
+            <p class=""></p>
+            <a href="/post/{{id}}" class="ms-1 text-decoration-none fs-3 text">{{title}} </a></p>
         </div>
-
     </header>
 
-    <div class="">
-        <div class="content has-text-justified">
-            {{post_content}}
-        </div>
 
-        <div class="is-pulled-right">
-            <b>{{user.username}}</b> |
-            | {{format_date created_at}} | <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment"
-                comments.length}}</a>
+    <div class="card">
+        <div class="card-body">
+            <div class="">
+                {{post_content}}
+            </div>
+
+            <div class="">
+                <b>{{user.username}}</b>
+                | {{format_date created_at}} | <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment"
+                    comments.length}}</a>
+            </div>
         </div>
 
     </div>
+</div>
