@@ -7,6 +7,7 @@ main {
 .card-body, nav{
     -webkit-box-shadow: 5px 4px 13px -7px rgba(0,0,0,0.51); 
     box-shadow: 5px 4px 13px -7px rgba(0,0,0,0.51);
+    font-size: 19px;
 }
 
 .nav-item:hover, .nav-item:active {
@@ -20,3 +21,8 @@ main {
 .card-header {
     height: 60px;
 }
+
+/* .card {
+    max-width: 1000px;
+} */
+
