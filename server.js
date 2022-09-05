@@ -4,7 +4,6 @@ const path = require('path');
 const express = require('express');
 const routes = require('./controllers/');
 const sequelize = require('./config/connection');
-
 const helpers = require('./utils/helpers');
 
 //handlebars
@@ -29,13 +28,14 @@ const sess = {
   })
 };
 
+// middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
-
 app.use(session(sess));
-
 app.use(routes);
+
+
 
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
