@@ -39,7 +39,10 @@ Finally, run the command 'node server'.
   
   ## Screenshot
   
-![Screenshot (67)](https://user-images.githubusercontent.com/105617274/187822737-9f5657cb-6100-4eb3-8cef-08a343ae1dfd.png)
+  ![Screenshot 2022-09-27 103740](https://user-images.githubusercontent.com/105617274/192557350-5a990cda-73b7-4bbe-bf1b-089f728b97f9.png)
+  
+  ![2222222222](https://user-images.githubusercontent.com/105617274/192558696-66c4d0e6-76a2-48f0-afd3-a5a5c3e764dc.png)
+
 
   ## License
   MIT
