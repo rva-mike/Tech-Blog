@@ -15,6 +15,7 @@
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
+  * [Link](#Link)
   * [Screenshot](#screenshot)
   * [License](#license)
   * [Questions](#questions)
@@ -31,6 +32,10 @@ Finally, run the command 'node server'.
 
   ## Usage
   Used for forum discussions.
+  
+  ## Link 
+  
+  Link to deployed application: https://tech-talk-blog-xyz.herokuapp.com/
   
   ## Screenshot
   
