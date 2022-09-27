@@ -6,6 +6,7 @@ router.get('/', (req, res) => {
     console.log(req.session);
     
     Post.findAll({
+      order: [['createdAt', 'DESC']],
       attributes: [
         'id',
         'title',
