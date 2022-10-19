@@ -15,7 +15,7 @@
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Link](#Link)
+  * [Link](#link)
   * [Screenshot](#screenshot)
   * [License](#license)
   * [Questions](#questions)
